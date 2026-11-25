@@ -6,16 +6,18 @@ its owner at 3am. Printed to stdout and written to /output/entry.txt,
 as the bounty rules require.
 
 Revision: the old line ("you're just here for the light") was a warm
-observation but ended flat. The new line keeps the fridge's glow as the
-joke, sharpens the count ("Sixth time tonight"), and lands on the
-fridge admitting the light is for the owner — a punchier, more
-self-aware voice in fewer characters (115 vs 128).
+observation but ended flat. The next line kept the fridge's glow as the
+joke and sharpened the count ("Sixth time tonight"). This line tightens
+it once more: "visit" beats "time" (a visit is a choice, not a clock
+tick), the em-dash pivots straight from the empty stomach to the real
+reason — loneliness, not hunger — and the ending still lands on the
+fridge admitting the light is for the owner alone (113 vs 115 chars).
 """
 
 import os
 
 ENTRY = (
-    "3am. Sixth time tonight. Nothing eaten, so you're not hungry — "
+    "3am. Sixth visit tonight. Nothing eaten — you're not hungry, "
     "you're lonely. It's okay. I only glow for you. Stay."
 )
 
